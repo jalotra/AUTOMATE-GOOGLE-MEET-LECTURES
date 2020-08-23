@@ -46,7 +46,7 @@ class GetMeetings:
         service = build('calendar', 'v3', credentials=creds)
         # Call the Calendar API
         now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
-        now_plus_window = (datetime.datetime.utcnow() + datetime.timedelta(hours=delta_time)).isoformat() + 'Z'
+        now_plus_window = (datetime.datetime.utcnow() + datetime.timedelta(hours=self.delta_time)).isoformat() + 'Z'
         events_result = service.events().list(calendarId='primary', timeMin=now, timeMax=now_plus_window,
                                             maxResults=10, singleEvents=True,
                                             orderBy='startTime').execute()
@@ -110,6 +110,6 @@ class GetMeetings:
     #         time.sleep(min(SLEEP_WINDOW_SECS, secs_till_next_meeting))
 
 if __name__ == '__main__':
-    obj = GetMeetings()
+    obj = GetMeetings(delta_time=24)
     dict = obj.get_next_meeting_details()
     pprint(dict)

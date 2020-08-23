@@ -1,5 +1,5 @@
 import webbrowser
-import src.MeetLinks.google_calendar as calendarapi
+from MeetLinks import google_calendar as calendarapi
 import datetime
 
 OPEN_BEFORE_X_MINUTES = 2

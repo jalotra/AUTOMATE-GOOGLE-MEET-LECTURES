@@ -1,0 +1,58 @@
+{'accessRole': 'owner',
+ 'defaultReminders': [{'method': 'popup', 'minutes': 10}],
+ 'etag': '"p33kfbe7iumjem0g"',
+ 'items': [{'attendees': [],
+            'conferenceData': {'conferenceId': 'dim-okeq-amj',
+                               'conferenceSolution': {'iconUri': 'https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v',
+                                                      'key': {'type': 'hangoutsMeet'},
+                                                      'name': 'Google Meet'},
+                               'entryPoints': [{'entryPointType': 'video',
+                                                'label': 'meet.google.com/dim-okeq-amj',
+                                                'uri': 'https://meet.google.com/dim-okeq-amj'},
+                                               {'entryPointType': 'phone',
+                                                'label': '+1 832-680-0803',
+                                                'pin': '504674154',
+                                                'regionCode': 'US',
+                                                'uri': 'tel:+1-832-680-0803'}],
+                               'signature': 'ADR/mfPj7PNDUhigbHDoG4c6+tDH'},
+            'created': '2020-08-17T06:58:35.000Z',
+            'creator': {'displayName': 'CHHAGAN CHARAN',
+                        'email': 'chhagan.charan@nitkkr.ac.in'},
+            'description': '<p><b>Module 2</b>: <b>Signals,Sensors, Actuators, '
+                           'Interfaces</b></p><p>● Sensors: types, signal '
+                           'types, shape and strength</p><p>● Sensor '
+                           'non-idealities: Sensitivity and offset drift, '
+                           'noise, minimumdetectable signal, '
+                           'nonlinearity</p><p>● Read-out circuits: '
+                           'Instrumentation-amplifier, SNR '
+                           'definition,noise-bandwidth-power</p><p>tradeoff</p><p>● '
+                           'Circuit component mismatch and mitigation '
+                           'techniques '
+                           '(calibration,chopping,</p><p>autozeroing '
+                           'etc.)</p><p>● Power/energy considerations</p><p>● '
+                           'Basic signal processing (filtering, quantization, '
+                           'computation,storage)</p>',
+            'end': {'dateTime': '2020-08-19T13:15:00Z'},
+            'etag': '"3195651309562000"',
+            'hangoutLink': 'https://meet.google.com/dim-okeq-amj',
+            'htmlLink': 'https://www.google.com/calendar/event?eid=MDlpY2swN2U5bzdiYmJ2MmR0MTJwNjMxb2xfMjAyMDA4MTlUMTExNTAwWiBzaGl2YW1fMTE3MTA0OTVAbml0a2tyLmFjLmlu',
+            'iCalUID': '09ick07e9o7bbbv2dt12p631ol_R20200819T111500@google.com',
+            'id': '09ick07e9o7bbbv2dt12p631ol_20200819T111500Z',
+            'kind': 'calendar#event',
+            'location': 'NIT KURUKSHETRA, NIT, Thanesar, Haryana 136119, India',
+            'organizer': {'displayName': 'CHHAGAN CHARAN',
+                          'email': 'chhagan.charan@nitkkr.ac.in'},
+            'originalStartTime': {'dateTime': '2020-08-19T11:15:00Z'},
+            'recurringEventId': '09ick07e9o7bbbv2dt12p631ol_R20200819T111500',
+            'reminders': {'useDefault': True},
+            'sequence': 0,
+            'start': {'dateTime': '2020-08-19T11:15:00Z'},
+            'status': 'confirmed',
+            'summary': 'IoT Training',
+            'updated': '2020-08-19T08:27:34.781Z'}],
+ 'kind': 'calendar#events',
+ 'summary': 'shivam_11710495@nitkkr.ac.in',
+ 'timeZone': 'UTC',
+ 'updated': '2020-08-19T09:10:00.545Z'}
+<class 'dict'>
+None
